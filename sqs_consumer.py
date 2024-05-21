@@ -13,6 +13,7 @@ sqs_client = boto3.client('sqs',
                           region_name='us-east-2')
 queue_url = os.environ['QUEUE_URL']
 
+
 def process_message(message):
     message_body = json.loads(message['Body'])
 
@@ -31,7 +32,7 @@ def process_message(message):
             ReceiptHandle=receipt_handle
         )
     else:
-        print("Message does not contain a ReceiptHandle key!")
+        print("Mensaje no contiene ReceiptHandle key!")
 
 
 while True:
