@@ -14,11 +14,15 @@ utilizan la biblioteca boto3 para interactuar con los servicios de AWS.
 ### Instalación de dependencias
 Clone el repositorio en su computadora local:
 
-`git clone https://github.com/rduuqe/sqs_sns`
+``` bash
+git clone https://github.com/rduuqe/sqs_sns
+```
 
 Navegue hasta el directorio del proyecto:
 
-`cd sqs_sns`
+``` bash
+cd sqs_sns
+``
 
 Instale las dependencias requeridas usando pip:
 
