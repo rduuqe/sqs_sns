@@ -22,11 +22,12 @@ Navegue hasta el directorio del proyecto:
 
 ``` bash
 cd sqs_sns
-``
+```
 
 Instale las dependencias requeridas usando pip:
-
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ## Ejecución de scripts
 
