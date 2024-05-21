@@ -23,11 +23,18 @@ Navegue hasta el directorio del proyecto:
 ``` bash
 cd sqs_sns
 ```
+
 Crea el entorno virtual:
 Abre una terminal y navega hasta el directorio raíz de tu proyecto. Ejecuta el siguiente comando, reemplazando `mi_entorno` con el nombre deseado para tu entorno
 
 ```bash
 python3 -m venv mi_entorno
+```
+
+Activa el entorno virtual:
+Para activar el entorno virtual y comenzar a trabajar en tu proyecto, ejecuta el siguiente comando
+``` bash
+source mi_entorno/bin/activate
 ```
 
 Instale las dependencias requeridas usando pip:
