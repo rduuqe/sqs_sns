@@ -32,7 +32,7 @@ Ejecute el siguiente comando, reemplazando
 `Este es el mensaje` con el cuerpo del mensaje que desea publicar:
 
 ``` bash
-/bin/bash publish_message.sh "This is a test message"
+/bin/bash publish_message.sh "Este es el mensaje"
 ```
 
 ### Recibir y procesar un mensaje de una cola de SQS
