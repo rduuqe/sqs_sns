@@ -1,4 +1,5 @@
 import os
+import sys
 
 import boto3
 import dotenv
@@ -12,8 +13,8 @@ sns_client = boto3.client('sns',
 
 response = sns_client.publish(
     TopicArn=os.environ['TOPIC_ARN'],
-    Message='Se publica un mensaje en el Topic #3',
-    Subject='Topic mensaje'
+    Message=sys.argv[1],
+    Subject='Publicación de TOPIC'
 )
 
 print(f"Message published: {response['MessageId']}")
