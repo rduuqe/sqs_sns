@@ -22,8 +22,6 @@ def process_message(message):
     print(f"Procesando mensaje con ID: {message_id}")
     print(f"Contenido del mensaje: {message_content}")
 
-    # ...
-
     if 'ReceiptHandle' in message:
         receipt_handle = message['ReceiptHandle']
         # Delete the message using the receipt handle
